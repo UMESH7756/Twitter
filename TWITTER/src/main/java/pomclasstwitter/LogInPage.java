@@ -31,7 +31,6 @@ public class LogInPage {
 	Thread.sleep(1000);
 	password.sendKeys("Endless@1310");
 	nextbutton2.click();
-	
-///UME4SH
+
 }
 }
