@@ -32,6 +32,6 @@ public class LogInPage {
 	password.sendKeys("Endless@1310");
 	nextbutton2.click();
 	
-	//DSDSDSD
+///UME4SH
 }
 }
