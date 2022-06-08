@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="twitterSuite" thread-count="2" parallel="classes" >
+ 
+ <test name="Chrome">
+
+
+<parameter name="browserName" value="Chrome"></parameter>
+    <classes>
+      <class name="Twitter.VerifyExploreFunctionalityAndSearchTab"/>
+      <class name="Twitter.VerifyTweetButtonAndFinalTweetButton"/>
+    </classes>
+  </test> <!-- Test1 -->
+
+ <test  name="MicrosoftEdge">
+<parameter name="browserName" value="Edge"></parameter>
+    <classes>
+      <class name="Twitter.VerifyExploreFunctionalityAndSearchTab"/>
+      <class name="Twitter.VerifyTweetButtonAndFinalTweetButton"/>
+    </classes>
+  </test> <!-- Test1 -->
+
+</suite> <!-- twitterSuite -->
